@@ -11,9 +11,6 @@ const jwt=require('jsonwebtoken');
 const bcrypt=require('bcryptjs')
 
 
-
-//we wont do app.get() or app.post() intead we'll use router and app.use in server.js to access respective routers
-
 //@route    GET api/auth
 //desc      test route  
 //access    private
